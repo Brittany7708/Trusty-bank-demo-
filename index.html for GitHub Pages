@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trusty Bank Demo</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    main {
+      max-width: 600px;
+      margin: 40px auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #003366;
+      margin-top: 0;
+    }
+    .balance {
+      font-size: 2rem;
+      color: #008000;
+      margin: 20px 0;
+    }
+    .transaction {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px 0;
+      padding: 10px;
+      border-bottom: 1px solid #eee;
+    }
+    button {
+      background-color: #003366;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    button:hover {
+      background-color: #0055aa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Trusty Bank Demo</h1>
+  </header>
+  <main>
+    <h2>Welcome, Brittany!</h2>
+    <p class="balance">Account Balance: $100,000</p>
+
+    <h3>Recent Transactions</h3>
+    <div class="transaction">
+      <span>Deposit</span>
+      <span>$50,000</span>
+    </div>
+    <div class="transaction">
+      <span>Withdrawal</span>
+      <span>$5,000</span>
+    </div>
+    <div class="transaction">
+      <span>Payment</span>
+      <span>$2,500</span>
+    </div>
+
+    <h3>Actions</h3>
+    <button onclick="alert('Deposit feature coming soon!')">Deposit</button>
+    <button onclick="alert('Withdraw feature coming soon!')">Withdraw</button>
+  </main>
+</body>
+</html>
